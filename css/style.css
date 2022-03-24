@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 62,5%;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #fefae0;
+}
+
+/* HEADER */
+
+.header{
+    color: #d4a373;
+    text-align: center;
+    height: auto;
+}
+
+.header h1{
+    font-size: 300%;
+    font-weight: 90;
+}
+
+a{
+    color: #d4a373;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#NavBar ul{
+    border: 1px solid #d4a373;
+    margin: 10px;
+}
+
+#NavBar ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:50px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:20px;
+    z-index:100;
+}
+
+/* INDEX */
+
+main{
+    height: auto;
+}
+
+main h1{
+    font-size: 200%;
+    font-weight: 200;
+    margin: 10px 20px;
+    color: #8c8c6f;
+    text-decoration: underline;
+    text-align: center;
+    }
+
+.carousel{
+    margin: 8px 100px;
+    display: inline-flex;
+    position: center;
+}
+
+.carousel_img{
+    margin: 10px;
+}
+
+.categorias h1{
+    color: #a5a58d;
+    font-size: 200%;
+    font-weight: 90;
+    text-align: center;
+    margin: 5px;
+}
+
+.categorias{
+    text-align: center;
+}
+
+.categorias_articulos li{
+    color: #b7b7a4;
+    font-size: 120%;
+    display: inline-flex;
+    border: 1px solid #b7b7a4;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* INTERVALO
+
+.intervalo{
+    margin: 120px;
+} 
+
+*/
+
+
+/* MAPS */
+
+.maps{
+    text-align: center;
+    margin: 5px;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 15vh;
+    border: solid 2px #cb997e;
+    position: relative;
+    bottom: 0;
+}
+
+.footer_section{
+    color: #d4a373;
+    margin: 20px 50px;
+    display: inline-flex;
+}
+
+.footer_title{
+    text-decoration: underline;
+    margin: 5px 10px;
+}
+
+
+/* BOTONES */
+
+.button{
+    margin: 8px 0px;
+    background-color: #e9edc9;
+    color: black;
+    width: auto;
+    height: 25px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.button_enlace{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 90;
+    font-weight: bold;
+    margin: 10px;
+    border: solid 2px #d4a373;
+    padding: 4px;
+    text-align: center;
+}
+
+.button_productos{
+    border: solid 2px #606c38;
+    background-color: #e4e4c2;
+    color: #606c38;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+/* CONTACTO */
+
+.formulario{
+    font-size: 100%;
+    font-weight: 100;
+    display: block;
+    margin: 10px 10px 10px 650px;
+    overflow: auto;
+    color: #8c8c6f;
+    text-align: left;
+}
+
+.formulario_input{
+    height: 30px;
+    margin: 5px;
+    text-align: left;
+}
+
+.img_portada{
+    display: block;
+    margin: auto;
+}
+
+/* SOBRE MI */
+
+.img_sobremi{
+    display: block;
+    margin: auto;
+}
+
+h2{
+    font-size: 150%;
+    font-weight:300;
+    margin: 10px;
+    color: #8c8c6f;
+    text-align: center;  
+    text-decoration: underline;
+}
+
+.texto{
+    text-align: justify;
+    text-indent: 2%;
+    line-height: 25px;
+    color: #606c38;
+    margin: 10px 20px;
+    border: solid 2px #606c38;
+    padding: 8px;
+}
+
+/* ARTICULOS */
+
+.galeria{
+    text-align: center;
+    margin: 10px;
+}
+
+.articulo{
+    margin: 9px;
+}
